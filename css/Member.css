@@ -1,0 +1,59 @@
+.memberTab{
+	text-align: center;
+}
+.memberTab-Nav{
+	margin-left: 236px;
+}
+.memberTab-Nav ul li{
+	list-style: none;
+	float: left;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	margin-top: 50px;
+	margin-right: 45px;
+	border-bottom: 2px solid rgba(255,255,255,.1);
+	cursor: pointer;
+	padding-bottom: 7px;
+}
+.memberTab-Info-item {
+	width: 998px;
+	display: inline-block;
+	margin-top: 38px; 
+	text-align: left;
+}
+.memberTab-Info-flip{
+	display: inline-block;
+	list-style: none;
+	width: 207px;
+	height: 297px;
+	background-color: #ecf0f5;
+	background: rgba(255,255,255,.1);
+	margin: 0px 20px 0px;
+	cursor: pointer;
+	text-align: center;
+}
+.memberTab-Info-flip span{
+	display: block;
+	width: 146px;
+	height: 146px;
+	background: rgba(255,255,255,.4);
+	border-radius: 50%;
+	margin: 17px auto 22px;
+}
+.memberTab-Info-flip p{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #ecf0f5;
+}
+.prev,.next{
+	 display: inline-block; 
+	 cursor: pointer;
+}
+.prev{
+	margin-right: 60px;
+}
+.next{
+	margin-left: 60px;
+}
+
