@@ -2,8 +2,8 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 import $ from 'jquery';
-import Prev from '../images/prev.png';
-import Next from '../images/next.png';
+import Prev from '../../images/prev.png';
+import Next from '../../images/next.png';
 
 class MemberContentInfo extends Component{
 
@@ -22,6 +22,7 @@ class MemberContentInfo extends Component{
 				{
 					indexList.map((count) => {
 						return(
+						<div className="container">
 							<div className="memberTab-Info-flip">
 								<div className="flip-front">
 									<span></span>
@@ -31,6 +32,7 @@ class MemberContentInfo extends Component{
 									<p>{count.memberIntro}</p>						
 								</div>
 							</div>
+						</div>
 						);
 					})
 				}

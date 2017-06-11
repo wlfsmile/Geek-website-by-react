@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {render} from 'react-dom';
 import Header from '../Header.js';
 import MemberContent from './MemberContent.js';
-import '../css/Member.css';
+import '../../css/Member.css';
 
 class Member extends Component{
 

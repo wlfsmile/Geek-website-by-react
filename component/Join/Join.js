@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 import Header from '../Header.js';
 import JoinContentTab from './JoinContentTab.js';
 import JoinContentIntro from './JoinContentIntro.js';
-import '../css/Join.css';
+import '../../css/Join.css';
 
 class Join extends Component{
 	render(){

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
-import Geek from '../images/geek1.png';
+import Geek from '../../images/geek1.png';
 
 class HomeContent extends Component{
 	render(){
