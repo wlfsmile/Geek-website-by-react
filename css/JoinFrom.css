@@ -2,7 +2,7 @@
 	margin-top: 40px;
 }
 
-.submitFrom{
+#submitFrom{
 	color: #ecf0f5;
 	font-family: "微软雅黑";
 	line-height: 40px;
@@ -13,11 +13,11 @@
 	margin: 0 auto;
 	text-align: center;
 }
-.submitFrom p{
+#submitFrom p{
 	margin-bottom: 30px;
 	text-align: right;
 }
-.submitFrom p input{
+#submitFrom p input{
 	background: rgba(255,255,255,.0);
 	border: 2px solid rgba(255,255,255,.2);
 	border-radius: 7px;

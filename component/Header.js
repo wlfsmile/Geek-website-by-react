@@ -4,6 +4,11 @@ import {Link} from 'react-router';
 import Logo from '../images/logo.png';
 
 class Header extends Component{
+
+	constructor(props){
+		super(props);
+	}
+
 	render(){
 		return(
 			<div className="header clearfix">
@@ -15,13 +20,13 @@ class Header extends Component{
 						<Link to="/" >首页 </Link>
 					</li>
 					<li>
-						<Link to="/work">成果展示</Link>
+						<Link to="/work" >成果展示</Link>
 					</li>
 					<li>
 						<Link to="/member" >团队介绍</Link>
 					</li>
 					<li>
-						<Link to="/join">加入我们</Link>
+						<Link to="/join" >加入我们</Link>
 					</li>
 				</ul>
 			</div>

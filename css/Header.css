@@ -28,8 +28,13 @@
 	font-family: "微软雅黑";
 	font-size: 18px;
 	cursor: pointer;
-	border-bottom: 2px solid rgba(255,255,255,.1);
 	padding-bottom: 5px;
+}
+.nav li:first-child{
+	border-bottom: 2px solid rgba(255,255,255,.1);
+}
+.navBorder{
+	border-bottom: 2px solid rgba(255,255,255,.1);
 }
 .nav li a{
 	color: #fff;

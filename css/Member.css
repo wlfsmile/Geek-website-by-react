@@ -14,9 +14,11 @@
 	font-size: 30px;
 	margin-top: 50px;
 	margin-right: 45px;
-	border-bottom: 2px solid rgba(255,255,255,.1);
 	cursor: pointer;
 	padding-bottom: 7px;
+}
+.memberTab-Nav ul li:first-child{
+	border-bottom: 2px solid rgba(255,255,255,.1);
 }
 .memberTab-Info-item {
 	width: 998px;
@@ -45,11 +47,10 @@
 	transition:0.6s;
 	transform-style:preserve-3d;
 }
-.memberTab-Info-flip span{
+.flip-front-img{
 	display: block;
 	width: 146px;
 	height: 146px;
-	background: rgba(255,255,255,.4);
 	border-radius: 50%;
 	margin: 17px auto 22px;
 }

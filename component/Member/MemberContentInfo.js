@@ -20,13 +20,14 @@ class MemberContentInfo extends Component{
 				</a>
 				<div className="memberTab-Info-item clearfix">
 				{
-					indexList.map((count) => {
+					indexList.map((count,i) => {
 						return(
-						<div className="container">
+						<div className="container" key={i} >
 							<div className="memberTab-Info-flip">
 								<div className="flip-front">
-									<span></span>
+									<img src={count.memberImg} className="flip-front-img" />
 									<p>{count.memberName}</p>
+									<p>{count.memberJob}</p>
 								</div>
 								<div className="flip-back" >
 									<p>{count.memberIntro}</p>						
